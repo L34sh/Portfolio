@@ -1,0 +1,214 @@
+/*BODY*/
+body {
+    margin: 0 auto;
+    padding:0;
+    outline:none;
+    border:none;
+    text-decoration:none;
+    font-family: Arial, sans-serif;
+    background-color:#030202;
+    font-size: 16px;
+    background: #030202;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  /*SIDEBAR*/
+  .sidebar {
+  position: fixed;
+  width: 100px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  }
+  /*LOGO IN SIDEBAR*/
+  .logo {
+  margin-top: 20px;
+  }
+  .logo img{
+    border-radius:100px;
+    height:50px;
+    width:auto;
+  }
+  /*NAVIGATION IN SIDEBAR*/
+  .nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  .nav li {
+  margin-bottom: 10px;
+  }
+  .nav a {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  }
+  .nav a:hover {
+  background-color: #60605c;
+  color: #ffd700;
+  }
+  .nav i {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #ffd700;
+  }
+  .nav-desc {
+  display: none;
+  }
+  .nav a:hover .nav-desc {
+  display: block;
+  }
+  /*HEADER*/
+  .header{
+  top: auto;
+  color:#740001;
+  border: 2px solid #740001;
+  min-height: 450px;
+  max-width:825px;
+  border-radius: 15px;
+  margin: 0 auto;
+  font-size: 32px;
+  align-items: left;
+  background-image: url(../images/bruno.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .header h1 {
+  font-size:60px;
+  font-weight: bold;
+  text-align: center;
+  font-family:"Dancing Script";
+  }
+  /*EARLY LIFE*/
+  .earlylife {
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+  position: center;
+  border-radius: 10px;
+  border: 1px solid #60605c;
+  }
+  #content h3 {
+  color:#ffd700;
+  Font-weight: bold;
+  font-size: 72px;
+  }
+  #content p {
+  color:#fff;
+  line-height: 1.5;
+  margin: 10% auto;
+  margin-left: 10ch;
+  margin-right: 10ch;
+  }
+  /*CAREER*/
+  .music{
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+  position: center;
+  border-radius: 10px;
+  border: 1px solid #60605c;
+  }
+  .career h3 {
+  font-size: 72px;
+  text-align: center;
+  color: #ffd700;
+  }
+  .career p{
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+  margin: 10% auto;
+  margin-left: 10ch;
+  margin-right: 10ch;
+  }
+  /*ALBUMS*/
+  .gallery{
+  display:flex;
+  flex-direction:row;
+  }
+  .al{
+  font-size: 72px;
+  text-align: center;
+  color: #ffd700;
+  }
+  .album img{
+  left:-80px;
+  width:250px;
+  height:250px; 
+  filter: grayscale();
+  border: 3px solid #ffd700;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  transition: filter 0.4s ease-in-out;
+  }
+  a:hover img {
+  filter: none;
+  }
+  /*STYLE*/
+  .style h3{
+  font-size: 72px;
+  text-align: center;
+  color: #ffd700;
+  }
+  .rhythm {
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+  position: center;
+  border-radius: 10px;
+  border: 1px solid #60605c;
+  }
+  .rhythm p{
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+  margin: 10% auto;
+  margin-left: 10ch;
+  margin-right: 10ch;
+  }
+  /*LEGACY*/
+  .legacy {
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+  position: center;
+  border-radius: 10px;
+  border: 1px solid #60605c;
+  }
+  .connection h3{
+  font-size: 72px;
+  text-align: center;
+  color: #ffd700;
+  }
+  .legacy p{
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+  margin: 10% auto;
+  margin-left: 10ch;
+  margin-right: 10ch;
+  }
+  /*MORE INFO*/
+  .Learn p{ 
+  font-size: small;
+  padding: 10ch;
+  }
+  .Learn a{
+  text-decoration: none;
+  color: #ffd700;
+  }
+  /*FOOTER*/
+  footer {
+  background-color: #030202;
+  color: #fff;
+  padding: 5px;
+  Text-align: center;
+  }
