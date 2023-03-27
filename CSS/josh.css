@@ -78,7 +78,7 @@ body {
     }
     /*TOP SECTION*/
     .top-section{
-    background-image: url(images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: contain;
     text-align: center;
     padding: 15px;
